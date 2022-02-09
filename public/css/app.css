@@ -53,3 +53,34 @@ img {
 .bg-black {
   background-color: #1c1c1c;
 }
+.bg-black .comics {
+  padding: 50px 0;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bg-black .comics .single-comic {
+  text-align: center;
+  width: calc(16.6666666667% - 10px);
+  margin: 20px 5px;
+}
+
+.bg-blue {
+  background-color: #0282f9;
+  color: white;
+}
+.bg-blue .main-bottom {
+  width: 90%;
+  margin: auto;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.bg-blue .main-bottom li {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.bg-blue .main-bottom li span {
+  padding: 0 10px;
+}
