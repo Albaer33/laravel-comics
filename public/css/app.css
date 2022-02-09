@@ -49,3 +49,7 @@ img {
   text-decoration: none;
   color: black;
 }
+
+.bg-black {
+  background-color: #1c1c1c;
+}
