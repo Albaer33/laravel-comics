@@ -1,0 +1,27 @@
+.small-band {
+    text-align: right;
+    line-height: 30px;
+    height: 30px;
+    background-color: $brand_primary_color;
+    color: white;
+}
+.header-content {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    .logo {
+        margin-right: 50px;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        li {
+            padding: 10px;
+            a {
+                padding: 10px;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

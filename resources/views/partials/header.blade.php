@@ -1,11 +1,16 @@
-<header class="container">
-    <div class="small-band">DC power visa</div>
-    <div class="header-content">
-        <div class="logo">
-            <img src="" alt="">
+<header>
+    <div class="small-band">
+        <div class="container">
+            DC POWER VISA
         </div>
-        <div class="menu">
-            <ul>
+    </div>
+
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+                <img src="{{ asset('images/dc-logo.png') }}" alt="">
+            </div>
+            <ul class="menu">
                 <li><a href="">CHARACTERS</a></li>
                 <li><a href="">COMICS</a></li>
                 <li><a href="">MOVIES</a></li>
@@ -17,6 +22,7 @@
                 <li><a href="">NEWS</a></li>
                 <li><a href="">SHOP</a></li>
             </ul>
+            </div>
         </div>
     </div>
 </header>
