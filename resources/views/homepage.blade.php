@@ -5,18 +5,26 @@ homepage
 @endsection
 
 @section('main_content')
+
+{{-- list of comics in homepage --}}
 <section class="bg-black">
     <div class="container">
         <div class="comics">
+
             @foreach ($comics_array as $comic)
                 <div class="single-comic">
-                    <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-                    <h4>{{$comic['series']}}</h4>
+                    <a href="{{ route('comic', ['id' => $comic['id']]) }}">
+                        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+                        <h4>{{$comic['series']}}</h4>
+                    </a>
                 </div>
             @endforeach
+
         </div>
     </div>
 </section>
+
+{{-- features --}}
 <section class="bg-blue">
     <div class="container">
         <ul class="main-bottom">
@@ -47,4 +55,5 @@ homepage
         </ul>
     </div>
 </section>
+
 @endsection

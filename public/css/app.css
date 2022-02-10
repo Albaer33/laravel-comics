@@ -17,7 +17,7 @@ img {
 }
 
 .container {
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 
@@ -50,6 +50,11 @@ img {
   color: black;
 }
 
+.jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  height: 400px;
+}
+
 .bg-black {
   background-color: #1c1c1c;
 }
@@ -63,6 +68,10 @@ img {
   text-align: center;
   width: calc(16.6666666667% - 10px);
   margin: 20px 5px;
+}
+.bg-black .comics .single-comic a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .bg-blue {
