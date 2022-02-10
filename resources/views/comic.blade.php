@@ -6,7 +6,7 @@ comic
 
 @section('main_content')
 <section class="blue-band">
-    <div class="container">
+    <div class="comic-container">
 
         <div class="thumb-container">
             <img src="{{$comic_info['thumb']}}" alt="">
@@ -56,7 +56,7 @@ comic
 
             <div class="specs">
                 <h4>SPECS</h3>
-                    
+
                 <div>Series: {{$comic_info['series']}}</div>
                 <div>U.S. price: {{$comic_info['price']}}</div>
                 <div>On sale date: {{$comic_info['sale_date']}}</div>
