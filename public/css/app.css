@@ -93,3 +93,26 @@ img {
 .bg-blue .main-bottom li span {
   padding: 0 10px;
 }
+
+.overview {
+  display: flex;
+  padding: 50px 0;
+}
+.overview .text {
+  width: 70%;
+}
+.overview .advertisement {
+  width: 30%;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.details .talent {
+  width: 45%;
+}
+.details .specs {
+  width: 45%;
+}

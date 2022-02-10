@@ -37,3 +37,24 @@
     }
 }
 // COMIC-DETAILS PAGE
+.overview {
+    display: flex;
+    padding: 50px 0;
+    .text {
+        width: 70%;
+    }
+    .advertisement {
+        width: 30%;
+    }
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    .talent {
+        width: 45%;
+    }
+    .specs {
+        width: 45%;
+    }
+}
